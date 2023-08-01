@@ -1,0 +1,17 @@
+span{
+			/*border-style: double;
+			border-width: 20px;
+			font-size: 100px;
+			border-color: green orange pink purple;
+			border-style: dotted;
+			border-style: dashed;
+			border-style: inset;
+			border-style: ridge;*/
+			border-width: 20px;
+			font-size: 100px;
+			border-color: green orange pink purple;
+			border-top-style: ridge ;
+			border-left-style: double ;
+			border-right-style: groove ;
+			border-bottom-style: dotted ;
+		}

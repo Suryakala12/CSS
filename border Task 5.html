@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<style>
+.scoop {
+  position: relative;
+  font-size: 25px;
+  font-family: initial;
+  z-index:1;
+  left:500px;
+  top:100px;
+}
+
+.scoop:before {
+  z-index:-1;
+  content:"";
+  position: absolute;
+  background: radial-gradient(circle at 0 0, transparent 10%, green calc(10%)) top left, radial-gradient(circle at 100% 0, transparent 10%, green calc(10%)) top right, radial-gradient(circle at 0 100%, transparent 10%, green calc(10%)) bottom left, radial-gradient(circle at 100% 100%, transparent 10%, green calc(10%)) bottom right;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  width: 800px;
+  height: 200px;
+  left:-40px;
+  top: -45px;
+  
+}
+</style>
+</head>
+<body>
+  <div class="scoop">
+      <p><center> <br></center></p>
+  </div>
+</body>
+</html>

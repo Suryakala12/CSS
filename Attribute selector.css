@@ -1,0 +1,18 @@
+input[type]{
+	color: blue
+}
+input[type="text"]{
+	color: red;
+}
+input[type="password"]{
+	color: orange
+}
+input[type="email"]{
+	color: violet
+}
+img[src]{
+	height: 400px;width: 400px
+}
+a[href]{
+	background-color: green
+}
